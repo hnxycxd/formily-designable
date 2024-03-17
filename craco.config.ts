@@ -25,6 +25,11 @@ const cracoConfig: CracoConfig = {
     //   return webpackConfig
     // },
   },
+  devServer: {
+    client: {
+      overlay: false,
+    },
+  },
 }
 
 export default cracoConfig
